@@ -6,7 +6,6 @@ from datetime import datetime
 
 
 # Create your views here.
-# This is your first comment
 def home(request):
     return render(request,'newapp2/home.html')
 
