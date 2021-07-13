@@ -1,0 +1,13 @@
+{% extends 'newapp2/home.html' %}
+
+{% block title %}serach title{% endblock %}
+
+{% block content %}<h1>content is year</h1>
+
+{% for data in data %}
+
+{{data.name}}<br>
+
+{% endfor %}
+
+{% endblock %}
